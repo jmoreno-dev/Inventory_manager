@@ -22,7 +22,7 @@ Enterprise Inventory Manager is a full-stack application designed for efficient 
 - 🛠️ Maven
 
 ### 🌟 Database
-- 🗄️ (Specify the database used, e.g., MySQL, PostgreSQL, etc.)
+- 🗄️ MySQL
 
 ## 🗂️ Project Structure
 ### 📂 Backend: `inventory-manager-api`
