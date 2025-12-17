@@ -1,6 +1,7 @@
 package com.inventory.enterprise.inventory_manager_api.Models;
 
 import jakarta.persistence.*;
+import jakarta.persistence.metamodel.EntityType;
 import lombok.Data;
 
 import java.math.BigDecimal;
@@ -25,6 +26,6 @@ public class Product {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "warehouse_id", nullable = false)
-    private Long warehouseId;
+    private Warehouse warehouse;
 
 }
